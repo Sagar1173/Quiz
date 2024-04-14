@@ -1,0 +1,34 @@
+.alignbutton{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding:14px 66px ;
+    margin-bottom: 25px;
+    background-color: rgb(85, 82, 251);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.heading-fs{
+    font-size: 70px;
+}
+.head-result{
+    display: none;
+}
+
+body {
+    position: relative; 
+}
+
+body::before {    
+      content: "";
+      background-image: url('bodybg.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.05;
+}
